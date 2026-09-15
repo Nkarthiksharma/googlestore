@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore Google Pixel phones, watches, accessories, and special offers on the Google Store." />
+  <title>Google Store: Pixel, Phones, Watches & Accessories</title>
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Global Header / Navbar -->
+  <header class="site-header">
+    <div class="site-header__container">
+
+      <!-- Left: Logo & Category Navigation -->
+      <div class="site-header__left">
+        <a href="https://store.google.com/?hl=en-IN" class="brand-logo" aria-label="Google Store Home">
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/>
+            <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"/>
+            <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.99 0 12s.45 3.82 1.25 5.42l4.03-3.15z"/>
+            <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/>
+          </svg>
+        </a>
+
+        <nav class="main-nav" aria-label="Google Store Categories">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="https://store.google.com/category/phones?hl=en-IN" class="main-nav__link">Phones</a></li>
+            <li class="main-nav__item"><a href="https://store.google.com/category/watches_trackers?hl=en-IN" class="main-nav__link">Watches &amp; Trackers</a></li>
+            <li class="main-nav__item"><a href="https://store.google.com/category/earbuds?hl=en-IN" class="main-nav__link">Earbuds</a></li>
+            <li class="main-nav__item"><a href="https://store.google.com/collection/accessories_wall?hl=en-IN" class="main-nav__link">Accessories</a></li>
+            <li class="main-nav__item"><a href="https://store.google.com/collection/offers?hl=en-IN" class="main-nav__link">Offers</a></li>
+            <li class="main-nav__item"><a href="https://store.google.com/magazine/support?hl=en-IN" class="main-nav__link">Support</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Right: Utility Actions -->
+      <div class="site-header__right" role="toolbar" aria-label="Account and Shop utilities">
+        <button type="button" class="action-btn" aria-label="Search the Google Store">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+          </svg>
+        </button>
+
+        <a href="https://store.google.com/cart?hl=en-IN" class="action-btn" aria-label="Shopping Cart, 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+          </svg>
+        </a>
+
+        <button type="button" class="action-btn" aria-label="Google apps">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6 10c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm12-2c0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2 2-.9 2-2zm-6 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm12 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-6 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm12 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/>
+          </svg>
+        </button>
+
+        <a href="https://accounts.google.com" class="action-btn" aria-label="Sign in to your Google Account">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88C7.55 15.8 9.68 15 12 15s4.45.8 6.14 2.12C16.43 19.18 14.03 20 12 20z"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Landmark -->
+  <main id="main-content">
+
+    <!-- Hero Banner Section -->
+    <section class="hero-section" aria-label="Featured Promotion">
+      <div class="hero-banner">
+        <img
+          class="hero-banner__media"
+          src="https://i.guim.co.uk/img/media/5453e81e74dbf5c86c53083cfe0f486e95e5ce73/570_0_2700_2160/master/2700.jpg?width=465&dpr=1&s=none&crop=none"
+          alt="Featured Google Pixel banner showcase"
+          loading="eager"
+        />
+      </div>
+    </section>
+
+    <!-- Popular Products Section -->
+    <section class="product-section" aria-labelledby="section-title-popular">
+      <div class="product-section__container">
+        <h2 id="section-title-popular" class="product-section__title">Popular on the Google Store.</h2>
+
+        <div class="product-grid">
+          <!-- Card 1 -->
+          <article class="product-card">
+            <div class="product-card__media-wrapper">
+              <img
+                class="product-card__media"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcE3R3JkDfsuJiZdGCRf3MGoN54LV-KpbjYwoQvunGgQ&s=10"
+                alt="Google Pixel 11 Pro and Pro XL"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-card__content">
+              <h3 class="product-card__title">Google Pixel 11 Pro and Pro XL</h3>
+              <p class="product-card__price">From ₹1,19,000</p>
+              <a href="#" class="product-card__cta">Learn more</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="product-card">
+            <div class="product-card__media-wrapper">
+              <img
+                class="product-card__media"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDa1djMO20zc7OM7FqpNSjkVN8w9MDg8yCD_NJYWDoKA&s=10"
+                alt="Google Pixel 11"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-card__content">
+              <h3 class="product-card__title">Google Pixel 11</h3>
+              <p class="product-card__price">From ₹89,999</p>
+              <a href="#" class="product-card__cta">Learn more</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="product-card">
+            <div class="product-card__media-wrapper">
+              <img
+                class="product-card__media"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ51HBqZgOJ4lJDvh4PTniG4arWEijwKl0K7Tke5cJqSg&s=10"
+                alt="Google Pixel 11 Pro Fold"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-card__content">
+              <h3 class="product-card__title">Google Pixel 11 Pro Fold</h3>
+              <p class="product-card__price">From ₹1,86,999</p>
+              <a href="#" class="product-card__cta">Learn more</a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="product-card">
+            <div class="product-card__media-wrapper">
+              <img
+                class="product-card__media"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RqHWHPHbO12EYgBszIOax7nWm0EYlths4bi0ZIScYg&s"
+                alt="Pixel Watch 5"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-card__content">
+              <h3 class="product-card__title">Pixel Watch 5</h3>
+              <p class="product-card__price">From ₹42,900</p>
+              <a href="#" class="product-card__cta">Learn more</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop Popular Categories Section (NEW) -->
+
+
+    <!-- Magic Capture Spotlight Feature Section -->
+    <section class="spotlight-section" aria-labelledby="spotlight-title">
+      <div class="spotlight-card">
+
+        <!-- Eyebrow Tag -->
+        <p class="spotlight-eyebrow">Magic Capture. Only on Google Pixel.</p>
+
+        <!-- 2-Column Grid: Copy on Left, Video on Right -->
+        <div class="spotlight-grid">
+
+          <!-- Left Column Content -->
+          <div class="spotlight-content">
+            <h2 id="spotlight-title" class="spotlight-title">Catch the memory. Stay in the moment.</h2>
+            <p class="spotlight-description">
+              Experience the evolution of our iconic camera with Magic Capture, a new way to take photos and videos.
+              With one tap, Google Pixel captures the best moments, edits them and curates them into easily shareable collections.
+            </p>
+            <a href="https://store.google.com/magazine/pixel-magic-capture" class="spotlight-cta">Learn more</a>
+          </div>
+
+          <!-- Right Column Video Player -->
+          <div class="spotlight-media">
+            <video
+              class="spotlight-video"
+              autoplay
+              controls
+              muted
+              loop
+              playsinline
+              aria-label="Demonstration of Magic Capture on Google Pixel"
+              poster="https://lh3.googleusercontent.com/W6iufXwQXNMjhdIpwhkDngBJa-g4Dd-dOzxI1nEf0Jm3tYAYy5V4Vivaiy_KRHldqI8B6pjF1KD7iTlPRTgMp4Q0cqjEijXwKUU=w720-h900-rw-nu"
+            >
+              <source src="https://storage.googleapis.com/mannequin/blobs/738ee165-8f0c-4dee-9f1a-b5d65ca92214.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<section class="categories-section" aria-labelledby="section-title-categories">
+      <div class="categories-section__container">
+        <h2 class="product-section__title" style="text-align:center;">Shop popular categories.</h2>
+
+        <div class="categories-grid">
+          <!-- Category 1: Phones -->
+          <a href="https://store.google.com/category/phones?hl=en-IN" class="category-card" aria-label="Shop Phones category">
+           <img   class="category-card__media-wrapper" src="https://lh3.googleusercontent.com/-hd7ag271kSqQF2WRn3jXV3S2jVt-_nFga3bAqmGPXWbb2l-2R3f36_nO9INClVqmB81BNGVN7XUHaifUFzzUcrpFwha7hTS3U4z=rj-sc0xffffffff">
+            <h3 class="category-card__title">Phones</h3>
+            <span class="category-card__action" aria-hidden="true">
+              Shop now
+
+            </span>
+          </a>
+
+          <!-- Category 2: Watches & Trackers -->
+          <a href="https://store.google.com/category/watches_trackers?hl=en-IN" class="category-card" aria-label="Shop Watches and Trackers category">
+          <img   style="width:50%;height:50%;"class="category-card__media-wrapper" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiJsARJGcv9pCqzQhaT-9PU_5jEsulicD0Gi5FcnSYVQ&s=10">
+
+            <h3 class="category-card__title">Watches &amp; Trackers</h3>
+            <span class="category-card__action" aria-hidden="true">
+              Shop now
+
+            </span>
+          </a>
+
+          <!-- Category 3: Earbuds -->
+          <a href="https://store.google.com/category/earbuds?hl=en-IN" class="category-card" aria-label="Shop Earbuds category">
+             <img   style="width:60%;height:100%;"class="category-card__media-wrapper" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJGS4fd6ih0_UoB_-7gOlHuqLq4IQJirIb_4yaM3tq8Q&s=10">
+            <h3 class="category-card__title">Earbuds</h3>
+            <span class="category-card__action" aria-hidden="true">
+              Shop now
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+      <section class="categories-section" aria-labelledby="section-title-categories">
+      <div class="categories-section__container">
+        <h2  class="product-section__title" style="text-align:center;">Discover the world of Google Pixel.</h2>
+
+        <div class="categories-grid1" >
+          <!-- Category 1: Phones -->
+           <div class="category-card1">
+           <img  class="category-card__media-wrapper1"  src="https://lh3.googleusercontent.com/-hd7ag271kSqQF2WRn3jXV3S2jVt-_nFga3bAqmGPXWbb2l-2R3f36_nO9INClVqmB81BNGVN7XUHaifUFzzUcrpFwha7hTS3U4z=rj-sc0xffffffff">
+            <h3 class="category-card__title">7 can’t-miss updates from our Pixel 11 launch</h3>
+            <span class="category-card__action" aria-hidden="true">
+              Read article
+
+            </span>
+                 </div>
+
+          <!-- Category 2: Watches & Trackers -->
+  <div class="category-card1">
+          <img  class="category-card__media-wrapper1" src="https://lh3.googleusercontent.com/eYj1qqi2GGrALXC8HL21sB_66pvRkrsFfRBO4v0HCKKk-vOJr8_ddGmrhyFExqvwb3JjqO7_MwNJiXpoRLRoYy3vGX8KS-FTLkn3=s6000-w6000-e365-rw-v0-nu">
+
+            <h3 class="category-card__title">Meet the New Google Pixel 11 Series. <br>Now with Special Launch<br> Offers on the Google Store India</h3>
+            <span class="category-card__action" aria-hidden="true">
+             Read article
+
+            </span>
+</div>
+
+          <!-- Category 3: Earbuds -->
+<div class="category-card1">          <img class="category-card__media-wrapper1" src="https://lh3.googleusercontent.com/1DMY6UB0SqiK8kej73gbhXtjZhtWmJdUPr5a_hQthXfqzf6wE0Rnginxuqg1sZ5Ptwo86rFaq6l8dVC7I3NHFXIIc-Id4xcqpvM=s1200-rw-nu-fcrop64=1,02dd1abffaabe0fd">
+            <h3 class="category-card__title">Google Pixel 11 Series Comparison: Find Your Perfect Match</h3>
+            <span class="category-card__action" aria-hidden="true">
+
+Read article
+
+            </span>
+</div>
+
+        </div>
+      </div>
+            <h2  class="product-section__title" style="text-align:center;position:relative;top:40px;">Explore the latest phones.</h2>
+          <div class="news-row">
+<div class="container">
+    <div class="news-box">
+
+        <div class="news-overlay">
+            <h3 class="news-heading">
+                Google Pixel 11 Pro and Pro XL<br>
+                <p style="font-weight:100;">Attention-grabbing. Not attention-seeking</p>
+            </h3>
+       <button style="
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    position:relative;
+    top:20px;
+">
+    Learn More
+</button>
+        </div>
+
+        <img
+            class="news-photo"
+            src="https://lh3.googleusercontent.com/bHod1PbkXMJ_vs_XXQEOFAdklUHbPx2L1Egzf_BVjLmJtj98S5ti4pEOQC90QVsmg5m2yJSqIr8bay5XiNvhP2nx8VRsmVnE1aU=s6000-w6000-e365-rw-v0-nu">
+    </div>
+
+
+    <div class="news-box">
+
+        <div class="news-overlay">
+            <h3 class="news-heading">
+                Google Pixel 11<br>
+                <p style="font-weight:100;">Anything but ordinary.</p>
+            </h3>
+            <button style="
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+       position:relative;
+    top:20px;
+">
+    Learn More
+</button>
+        </div>
+
+        <img
+            class="news-photo"
+            src="https://lh3.googleusercontent.com/Lp3DcjqX1SL7il9QzW1j3grnI65BGMDfGuai3xJ7Y-WrPelh20GXRH6QCHbz8Ytcp3WMXclQWy_M-fvRj4KFi2MS2QWf5zd2uBM=s6000-w6000-e365-rw-v0-nu">
+    </div>
+
+
+    <div class="news-box">
+
+        <div class="news-overlay">
+            <h3 class="news-heading">
+                Google Pixel 11 Pro Fold<br>
+                <p style="font-weight:100;">Eye-opening performance.</p>
+            </h3>
+            <button style="
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+       position:relative;
+    top:20px;
+">
+    Learn More
+</button>
+        </div>
+
+        <img
+            class="news-photo"
+            src="https://lh3.googleusercontent.com/FmFZBEg_RWynfVTsYPbi6B_dkq5rh1l4jZFmet9EYaxn_fHUDeK3mMG2q-_yD6lYDdWX3FiVY9HjDYrviz7iJoMD9z6gG-m2WDOb=s6000-w6000-e365-rw-v0-nu">
+    </div>
+
+</div>
+          </div>
+    </section>
+  </main>
+
+</body>
+</html>
